@@ -35,6 +35,8 @@ package.json # Dependências e scripts
 
 
 
+
+
 ---
 
 ## ⚙️ Pré-requisitos
@@ -50,25 +52,21 @@ package.json # Dependências e scripts
 
 1. Clone o repositório:
 ```bash
+git clone <URL_DO_SEU_REPOSITORIO>
+cd whatsapp-saas
+
 git clone https://github.com/TinRober/whatsapp-saas.git
 cd whatsapp-saas
 Instale as dependências:
-
-bash
-Copiar código
 npm install
 # ou
 yarn install
-Crie o arquivo .env com as variáveis:
 
-ini
-Copiar código
+Crie o arquivo .env com as variáveis:
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
 OPENAI_MODEL=gpt-4o-mini
-Inicie o bot:
 
-bash
-Copiar código
+Inicie o bot:
 node bot/index.js --id=Cliente1
 O QR Code será gerado no primeiro acesso para autenticação.
 
@@ -93,5 +91,6 @@ Não versionar node_modules/ nem arquivos .env
 ✉️ Contato
 Desenvolvido por Roberto Galarani
 Email: galarani.dev@gmail.com
+
 
 
