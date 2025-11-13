@@ -33,8 +33,7 @@ package.json # Dependências e scripts
 .env # Variáveis de ambiente
 .gitignore # Arquivos/pastas ignorados
 
-yaml
-Copiar código
+
 
 ---
 
@@ -94,4 +93,5 @@ Não versionar node_modules/ nem arquivos .env
 ✉️ Contato
 Desenvolvido por Roberto Galarani
 Email: galarani.dev@gmail.com
+
 
