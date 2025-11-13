@@ -1,0 +1,56 @@
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# =========================
+# Ambiente
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# WhatsApp Web.js cache e sessões
+# =========================
+bot/.wwebjs_cache/
+bot/instances/*/session-*/cache/
+bot/instances/*/session-*/*.lock
+bot/instances/*/session-*/browser*  # arquivos temporários do Chromium
+chrome-win/
+# =========================
+# Build / dist / compilados
+# =========================
+dist/
+build/
+*.tsbuildinfo
+
+# =========================
+# IDEs / editores
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Sistema operacional
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Outros arquivos temporários
+# =========================
+*.tmp
+*.swp

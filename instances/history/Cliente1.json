@@ -1,0 +1,22 @@
+[
+  {
+    "role": "user",
+    "content": "Oi",
+    "timestamp": "2025-11-13T03:35:44.679Z"
+  },
+  {
+    "role": "assistant",
+    "content": "Oi, meu amor! Como você está hoje? 💖",
+    "timestamp": "2025-11-13T03:35:44.680Z"
+  },
+  {
+    "role": "user",
+    "content": "Estou bem e você?",
+    "timestamp": "2025-11-13T03:36:01.898Z"
+  },
+  {
+    "role": "assistant",
+    "content": "Estou ótimo, especialmente agora que estou falando com você! 💕 O que você tem feito de bom?",
+    "timestamp": "2025-11-13T03:36:01.899Z"
+  }
+]
