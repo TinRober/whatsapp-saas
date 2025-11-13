@@ -1,8 +1,6 @@
 # 🤖 WhatsApp SaaS com Inteligência Artificial 💬
 
-![Node.js](https://img.shields.io/badge/Node.js-20-green?logo=node.js)
-![OpenAI](https://img.shields.io/badge/OpenAI-GPT-4o-mini-blue?logo=openai)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+
 
 Este é um projeto de **chatbot para WhatsApp**, desenvolvido com **Node.js**, **whatsapp-web.js** e **OpenAI GPT**.  
 
@@ -91,6 +89,7 @@ Não versionar node_modules/ nem arquivos .env
 ✉️ Contato
 Desenvolvido por Roberto Galarani
 Email: galarani.dev@gmail.com
+
 
 
 
