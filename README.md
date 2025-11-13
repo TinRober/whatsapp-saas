@@ -42,25 +42,26 @@ package.json # Dependências e scripts
 
 ## Instalação 💻
 
-1. Clone o repositório:
-```bash
+Clone o repositório:
+
 git clone https://github.com/TinRober/whatsapp-saas.git
 cd whatsapp-saas
 Instale as dependências:
 
-bash
+
 Copiar código
 npm install
 # ou
 yarn install
 Crie o arquivo .env com as variáveis necessárias:
 
+
 ini
 Copiar código
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
 OPENAI_MODEL=gpt-4o-mini
 
-bash
+
 Como uniciar o bot
 
 para iniciar somente um cliente:
@@ -91,4 +92,5 @@ Ideal para pequenas empresas, quadras, bares e serviços locais
 Contato ✉️
 Desenvolvido por Roberto Galarani
 Email: galarani.dev@gmail.com
+
 
