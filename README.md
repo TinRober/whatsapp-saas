@@ -29,9 +29,6 @@ package.json # Dependências e scripts
 .env # Variáveis de ambiente
 .gitignore # Arquivos/pastas ignorados
 
-yaml
-Copiar código
-
 ---
 
 ## Pré-requisitos ⚙️
@@ -47,7 +44,7 @@ Copiar código
 
 1. Clone o repositório:
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO>
+git clone https://github.com/TinRober/whatsapp-saas
 cd whatsapp-saas
 Instale as dependências:
 
@@ -62,11 +59,16 @@ ini
 Copiar código
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
 OPENAI_MODEL=gpt-4o-mini
-Inicie o bot:
 
 bash
-Copiar código
+Como uniciar o bot
+
+para iniciar somente um cliente:
 node bot/index.js --id=Cliente1
+
+para iniciar todos:
+pm2 start npm -- start
+
 No primeiro acesso, o QR Code será gerado para autenticação no WhatsApp.
 
 Após isso, as sessões são salvas automaticamente para reconexões futuras.
@@ -85,9 +87,7 @@ Logs são rotacionados diariamente para evitar crescimento excessivo
 
 Ideal para pequenas empresas, quadras, bares e serviços locais
 
-É recomendável não versionar node_modules/ nem arquivos .env
 
 Contato ✉️
 Desenvolvido por Roberto Galarani
 Email: galarani.dev@gmail.com
-LinkedIn: linkedin.com/in/roberto-galarani
