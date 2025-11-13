@@ -44,7 +44,7 @@ package.json # Dependências e scripts
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/TinRober/whatsapp-saas
+git clone https://github.com/TinRober/whatsapp-saas.git
 cd whatsapp-saas
 Instale as dependências:
 
@@ -91,3 +91,4 @@ Ideal para pequenas empresas, quadras, bares e serviços locais
 Contato ✉️
 Desenvolvido por Roberto Galarani
 Email: galarani.dev@gmail.com
+
